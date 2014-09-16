@@ -49,7 +49,7 @@
                                                    message:@"設定が完了しました"
                                                   delegate:nil
                                          cancelButtonTitle:nil
-                                         otherButtonTitles:@"終了"
+                                         otherButtonTitles:@"終了する"
                          , nil];
     [alert show];
 }
@@ -83,7 +83,7 @@
                                                        message:@"時間になりました"
                                                       delegate:nil
                                              cancelButtonTitle:nil
-                                             otherButtonTitles:@"終了"
+                                             otherButtonTitles:@"終了する"
                              , nil];
         [alert show];
         [timer invalidate];
